@@ -18,9 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //12333
     TextView *textView = [[TextView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
     textView.backgroundColor = [UIColor redColor];
     [self.view addSubview:textView];
+    UILabel *a ;
     //最顶层视图
     TextViewTop *topView = [[TextViewTop alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
     topView.backgroundColor = [UIColor blueColor];
